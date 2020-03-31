@@ -2,7 +2,9 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="text/html" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Барбершоп «Бородинский»</title>
   </head>
   <body>
@@ -51,21 +53,24 @@
 
         <div class="features-item">
           <b class="features-name">Быстро</b>
-          <p>Мы делаем свою работу быстро! Два часа пролетают
-              незаметно и вы - счастливый обладатель стильной
+          <p>Мы делаем свою работу быстро!
+              два часа пролетят незаметно и
+              вы — счастливый обладетель стильной
               стрижки-минутки!</p>
         </div>
 
         <div class="features-item">
           <b class="features-name">Круто</b>
-          <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас
-              звезду футбола или кино! Во всяком случае внешне.</p>
+          <p>Забудьте, как вы стриглись раньше.
+              мы сделаем из вас звезду футбола или кино!
+              во всяком случае внешне.</p>
         </div>
 
         <div class="features-item">
           <b class="features-name">Дорого</b>
-          <p>Наши мастера - профессионалы своего дела и не могут
-              стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+          <p>Наши мастера — профессионалы своего дела и
+              не могут стоить дешево. к тому же,
+              разве цена не дает определеный статус?</p>
         </div>
 
       </section>
@@ -93,11 +98,11 @@
         <div class="index-content-right">
           <h2 class="index-content-title">Фотогалерея</h2>
           <div class="gallery">
-            <figure>
+            <figure class="gallery-content">
               <img src="img/gallery1.jpg" alt="Фото рабочего места" width="286" height="164">
             </figure>
-            <button class="btn bth-gallery-prev" type="button" name="button">Назад</button>
-            <button class="btn bth-gallery-next" type="button" name="button">Вперед</button>
+            <button class="btn gallery-prev" type="button" name="button">Назад</button>
+            <button class="btn gallery-next" type="button" name="button">Вперед</button>
           </div>
         </div>
 
@@ -125,11 +130,12 @@
           <h2 class="index-content-title">Записаться</h2>
           <p>Укажите желаемую дату и время и мы свяжемся с вами
               для подтверждения брони</p>
-          <form class="appointment-form" action="index.html" method="post">
+          <form class="appointment-form clearfix" action="index.html" method="post">
             <input type="text" name="date" value="" placeholder="Дата">
             <input type="text" name="time" value="" placeholder="Время">
             <input type="text" name="name" value="" placeholder="Ваше имя">
             <input type="tel" name="phone" value="" placeholder="Телефон">
+            <button class="btn" type="button" name="button">Отправить</button>
           </form>
         </div>
 
@@ -158,7 +164,7 @@
 
         <section class="footer-copyright">
           <p>Разработано:</p>
-          <a href="https://htmlacademy.ru">HTML Academy</a>
+          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
         </section>
 
       </div>
