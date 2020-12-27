@@ -617,12 +617,12 @@ body {
    top: 120px;
    left: 50%;
    width: 300px;
+   margin-left: -150px;
    padding: 50px 80px;
    color: #000;
    z-index: 25;
    background: #f8f3f0 url("../images/pattern-white.jpg");
    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
-   transform: translateX(-50%);
 }
 
 .modal-content-map {
